@@ -1,0 +1,17 @@
+{
+  "name": "nextjs-oauth",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "next": "9.3.2",
+    "react": "16.4.1",
+    "react-cookie": "^2.2.0",
+    "react-dom": "16.4.1",
+    "express": "^4.16.3"
+  },
+  "license": "ISC"
+}
